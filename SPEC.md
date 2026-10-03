@@ -25,7 +25,6 @@ A Claude Code skill (also installable as a plugin) that makes captioned how-to v
 - Rendered videos are never committed.
 
 ## Open questions
-- Licence for public distribution (MIT is the usual choice for a skill like this).
 - Should the engine also be published to npm (`npx tutorialize`) so it can run without Claude Code?
 - Voice narration (`--voice`) is untested: needs a Kokoro model download to verify.
 - Non-Chrome browsers and non-1080p viewports are supported in config but untested beyond unit tests.
@@ -37,3 +36,4 @@ A Claude Code skill (also installable as a plugin) that makes captioned how-to v
 - 2026-10-03: `init` writes `tutorials/package.json` with `"type": "module"` so flows are ES modules whatever the host app uses, and copies `types.ts` so the app needs no engine import at edit time.
 - 2026-10-03: Added a `select` action for native `<select>` elements.
 - 2026-10-03: The type check lives in `tsconfig.check.json` because Playwright applies `tsconfig.json` "paths" at runtime.
+- 2026-10-03: Published as a public GitHub repo (ChrisQuarsh/tutorialize) under the MIT licence.
