@@ -1,0 +1,9 @@
+node_modules/
+test-results/
+.env.tutorial
+.venv/
+.scratch/
+.superpowers/
+# Rendered output (working folders and finished videos) is large and re-renderable.
+**/docs/tutorials/
+.transcode-cache/

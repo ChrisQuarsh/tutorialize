@@ -1,0 +1,5 @@
+{
+  "//": "Makes the .ts files in this folder ES modules, whatever the app itself uses.",
+  "private": true,
+  "type": "module"
+}

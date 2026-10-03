@@ -1,0 +1,10 @@
+{
+  // Type-check only (npm run typecheck): the engine plus the example app's tutorials. Kept out of
+  // tsconfig.json because Playwright applies tsconfig "paths" at runtime too.
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "paths": { "@playwright/test": ["./node_modules/@playwright/test/index.d.ts"] }
+  },
+  "include": ["**/*.ts", "../../../examples/*/tutorials/**/*.ts"],
+  "exclude": ["node_modules"]
+}

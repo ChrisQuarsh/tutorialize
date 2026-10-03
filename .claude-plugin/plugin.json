@@ -1,0 +1,8 @@
+{
+  "name": "tutorialize",
+  "version": "0.1.0",
+  "description": "Captioned how-to videos of any web app: a real browser clicks through the task, then the recording gets step captions, smooth zooms, a cursor and title and end cards.",
+  "author": { "name": "ChrisQuarsh", "url": "https://github.com/ChrisQuarsh" },
+  "repository": "https://github.com/ChrisQuarsh/tutorialize",
+  "keywords": ["tutorial", "video", "playwright", "screencast", "onboarding", "docs"]
+}

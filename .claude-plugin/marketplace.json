@@ -1,0 +1,15 @@
+{
+  "name": "tutorialize",
+  "description": "tutorialize: captioned how-to videos of any web app, as a Claude Code skill.",
+  "owner": {
+    "name": "ChrisQuarsh"
+  },
+  "plugins": [
+    {
+      "name": "tutorialize",
+      "source": "./",
+      "description": "Captioned how-to videos of any web app, recorded with Playwright and packaged with Hyperframes.",
+      "version": "0.1.0"
+    }
+  ]
+}

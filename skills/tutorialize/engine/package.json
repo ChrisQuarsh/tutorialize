@@ -1,0 +1,20 @@
+{
+  "name": "tutorialize-engine",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Records captioned how-to videos of any web app: Playwright recorder, Hyperframes packager.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.check.json"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.62.1",
+    "@types/node": "^25.6.0",
+    "typescript": "~5.9.3",
+    "vitest": "4.1.10"
+  }
+}

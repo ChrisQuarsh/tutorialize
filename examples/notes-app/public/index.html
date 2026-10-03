@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Notes</title>
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+<header>
+  <strong>Notes</strong>
+  <nav aria-label="Main">
+    <button type="button" data-view="home" aria-current="page">Home</button>
+    <button type="button" data-view="notes">Notes</button>
+  </nav>
+</header>
+<main>
+  <section id="home">
+    <h1>Welcome back</h1>
+    <p>Open <b>Notes</b> to see and add notes.</p>
+  </section>
+  <section id="notes" hidden>
+    <div class="bar"><h1>Notes</h1><button type="button" id="new-note" class="primary">New note</button></div>
+    <ul id="list" aria-label="Notes"></ul>
+  </section>
+</main>
+<dialog id="form-dialog" aria-labelledby="form-title">
+  <form id="form" method="dialog">
+    <h2 id="form-title">New note</h2>
+    <label>Title <input name="title" required /></label>
+    <label>Note <textarea name="body" rows="4"></textarea></label>
+    <label>Colour
+      <select name="colour"><option>Yellow</option><option>Blue</option><option>Green</option></select>
+    </label>
+    <div class="actions"><button type="button" id="cancel">Cancel</button><button type="submit" class="primary">Save note</button></div>
+  </form>
+</dialog>
+<div id="toast" role="status" hidden></div>
+<script src="/app.js"></script>
+</body>
+</html>
