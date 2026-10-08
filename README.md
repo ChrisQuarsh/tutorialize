@@ -1,4 +1,4 @@
-# tutorialize
+# Tutorialize
 
 A Claude Code skill that makes captioned how-to videos of **any web app**. You (or Claude) describe a task as a list of steps; a real browser clicks through it, and the recording gets step captions, smooth zooms on what matters, a gliding cursor with click ripples, and title and end cards. Re-render any time the UI changes.
 
